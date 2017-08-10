@@ -1,8 +1,11 @@
-
-
 body{
     background-color: #e6e6e6;
 }
 .col-xs-12{
+    background-color:#;
+}
+.w-box{
+    width:100%;
+    height:5%;
     background-color: white;
 }
