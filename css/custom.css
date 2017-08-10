@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
+
 body{
     background-color: #f0f0f0;
 }
-.col-xs-12{
+.w-box{
     background-color: white;
 }
 
@@ -14,4 +17,14 @@ body{
     position: relative;
     bottom: 50px;
     max-width: 200px;
+}
+
+.center-font{
+    padding-top:15px;
+    font-size:5em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+ul, li{
+    list-style:none;
+    display:inline-block;
 }
