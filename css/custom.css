@@ -231,7 +231,6 @@ div.col-xs-6 {
         height: 239px;
     }
     .small-circles{
-        margin: 0;
         margin-bottom: 20px;
     }
     .circles-right {
@@ -255,5 +254,126 @@ div.col-xs-6 {
         background-color: black;
 
 
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo, .logo-image {
+
+        float: left;
+
+    }
+
+    .logo-image {
+        position: relative;
+        top: -150px;
+    }
+
+    .top-menu {
+        float: right;
+        padding-top: 20px;
+    }
+
+    .page-header {
+        float: left;
+        position: relative;
+        top: -140px;
+        right: -220px;
+        font-size: 50px;
+        text-decoration: none;
+    }
+
+    .body-heading {
+        width: 100%;
+        display: inline-block;
+        font-size: 3em;
+
+    }
+
+    .circle {
+        border-radius: 100%;
+        height: 170px;
+        width: 170px;
+        border: 10px solid white;
+        float: left;
+        margin-left: 55px;
+
+    }
+
+    #red-circle-sm {
+        background-color: #e6563b;
+    }
+
+    #green-circle-sm {
+        background-color: #7cb06c;
+    }
+
+    #orange-circle-sm {
+        background-color: #df9f3d;
+    }
+
+    #turquoise-circle-sm {
+        background-color: #00aba9;
+
+    }
+
+    .h2-center {
+        padding-top: 35px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 30px;
+
+    }
+
+    div#red-small.small-circles, div#orange-small.small-circles, div#green-small.small-circles, div#turquoise-small.small-circles {
+        margin: 0 2px;
+
+    }
+
+    .circles-right {
+        border-radius: 20%;
+
+    }
+
+    .h2-text-right {
+        font-size: 15px;
+        padding-right: 50px;
+    }
+
+    div.col-xs-6.circles-right.hidden-xs {
+        padding-bottom: 60px;
+
+    }
+
+    div.col-xs-6 {
+        padding-left: 0;
+    }
+
+    .circles-right {
+        padding-right: 0;
+        padding-left: 20px;,
+    margin-right: 2 px;
+        padding-top: 20px;
+    }
+
+    .quick_fix {
+        width: 370px;
+        height: 239px;
+    }
+
+    .body-heading {
+        width: 100%;
+        display: inline-block;
+        font-size: 3em;
+
+    }
+    .small-circles {
+        width: 35px;
+        height: 35px;
     }
 }
