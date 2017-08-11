@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nobile:700|Saira+Condensed');
 
 body{
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
 }
 .w-box{
     background-color: white;
@@ -50,10 +50,10 @@ ul{
     /*padding-bottom: 5px;*/
 }
 .circle {
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    border: 8px solid white;
+    border-radius: 100%;
+    height:200px;
+    width: 200px;
+    border: 14px solid white;
 }
 
 #red {
@@ -87,4 +87,33 @@ div.col-xs-6 {
 
 .text-center-footer{
     font-family: 'Saira Condensed', sans-serif;
+    padding-bottom: 55px;
+}
+.h2-center {
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Nobile', sans-serif;
+}
+.img-border-rounded {
+    border: 15px solid #e6e6e6;
+    border-radius: 2%;
+}
+.h2-text-right {
+    font-family: 'Saira Condensed', sans-serif;
+}
+.small-circles {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    font-family: 'Nobile', sans-serif;
+    margin: 5px;
+    padding-top: 3px;
+}
+
+.circles-right {
+    padding-right: 0;
+    padding-left: 35px;
+    padding-top: 10px;
 }
