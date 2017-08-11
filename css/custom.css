@@ -130,24 +130,28 @@ div.col-xs-6 {
     padding-left: 35px;
     padding-top: 10px;
 }
-@media (min-width: 768px) and (max-width: 991px){
-    .top-menu{
-        display:inline-block;
-        background:red;
-        position: absolute;
-    }
-    navbar-xs{
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-xs {
         display: none;
     }
-    .logo-image{
-        clear:both;
-        width: 50%;
+
+    .logo {
         position: relative;
 
     }
 
+    .logo-image {
+        top: -130px;
+    }
+    .top-menu li:nth-child(2){
+        padding-right: 220px;
 
-
+    }
+    .row-circle {
+        display: inline;
+        clear: both;
+    }
 }
 
 
