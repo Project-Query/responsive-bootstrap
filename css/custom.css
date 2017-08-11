@@ -158,7 +158,7 @@ div.col-xs-6 {
 
     #red-circle-sm {
         background-color: #e6563b;
-        padding-right:5px;
+        padding-right: 5px;
     }
 
     #green-circle-sm {
@@ -174,8 +174,8 @@ div.col-xs-6 {
 
     }
 
-    .left-circle-pad{
-        padding-left:40px;
+    .left-circle-pad {
+        padding-left: 40px;
     }
 
     .circle {
@@ -183,8 +183,8 @@ div.col-xs-6 {
         height: 170px;
         width: 170px;
         border: 10px solid white;
-        float:left;
-        margin-left:10px;
+        float: left;
+        margin-left: 10px;
 
     }
 
@@ -193,14 +193,59 @@ div.col-xs-6 {
         color: white;
         font-weight: bold;
         font-family: 'Saira Condensed', sans-serif;
-        font-size:30px;
+        font-size: 30px;
     }
-    .page-header{
-        font-size:45px;
+
+    .page-header {
+        font-size: 45px;
     }
-    .body-heading{
+
+    .body-heading {
         text-after-overflow: auto;
     }
+
+    .body-heading strong {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        margin-right: -90px;
+        margin-left: -90px;
+    }
+
+    .w-box {
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    .row-small-pics:nth-child(3){
+       height: 25%;
+    }
+    .circles-right{
+       border-radius: 20%;
+    }
+    .h2-text-right {
+        font-size: 15px;
+     padding-right: 50px;
+    }
+    .quick_fix {
+        width: 370px;
+        height: 239px;
+    }
+    .small-circles{
+        margin: 0;
+    }
+    .circles-right {
+        padding-right:0;
+        padding-left: 20px;,
+         margin-right: 2px;
+    }
+    div.col-xs-6 {
+        padding-left: 0;
+    }
+div#red-small.small-circles, div#orange-small.small-circles, div#green-small.small-circles, div#turquoise-small.small-circles {
+    margin: 0 2px;
+
+}
 }
 
 
