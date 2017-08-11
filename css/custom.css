@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Nobile:700|Saira+Condensed');
 
+
 body{
     background-color: #f0f0f0;
 }
@@ -12,6 +13,7 @@ body{
 .logo {
     margin-top: 50px;
     height: 100px;
+    clear:both;
 }
 
 .logo-image {
@@ -84,7 +86,18 @@ div.col-xs-6 {
     padding-bottom: 150px;
 
 }
-
+#red-small{
+    background-color: #e6563b;
+}
+#orange-small {
+    background-color: #df9f3d;
+}
+#green-small{
+    background-color: #7cb06c;
+}
+#turquoise-small {
+    background-color: #00aba9;
+}
 .text-center-footer{
     font-family: 'Saira Condensed', sans-serif;
     padding-bottom: 55px;
@@ -117,3 +130,24 @@ div.col-xs-6 {
     padding-left: 35px;
     padding-top: 10px;
 }
+@media (min-width: 768px) and (max-width: 991px){
+    .top-menu{
+        display:inline-block;
+        background:red;
+        position: absolute;
+    }
+    navbar-xs{
+        display: none;
+    }
+    .logo-image{
+        clear:both;
+        width: 50%;
+        position: relative;
+
+    }
+
+
+
+}
+
+
